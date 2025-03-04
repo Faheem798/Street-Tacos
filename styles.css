@@ -24,7 +24,7 @@ body {
 }
 
 /* -------------------- GLOBAL STYLES (Mobile First) -------------------- */
-/* -------------------- HEADER FIXES -------------------- */
+/* -------------------- HEADER-------------------- */
 header {
     display: flex;
     align-items: center;
@@ -222,7 +222,7 @@ nav ul li img {
     font-weight: bold;
     text-align: center;
     flex: 1;
-    min-width: 120px; 
+    max-width: 120px; 
     padding: 10px;
 }
 
@@ -371,24 +371,6 @@ footer {
     margin-bottom: 5px;
 }
 
-/* Responsive Footer */
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .footer-left {
-        flex-direction: column;
-    }
-
-    .social {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
-}
 
 
 .visually-hidden {
@@ -402,9 +384,10 @@ footer {
   }
   
   /*-------------------- MEDIA QUERY (medium) --------------------------------*/
-  /*  min-width: 620px  */
-  @media (min-width: 620px) {
-   /*  .recipe {
+
+  /*  max-width: 620px  */
+  @media (max-width: 620px) {
+    .recipe {
         flex-direction: column;
         align-items: center;
     }
@@ -431,20 +414,53 @@ footer {
     .recipe-content article {
         text-align: center;
     }
+    .recipe-details-container{
+        background-color: transparent;
+        color: black;
+        text-align: center;
+    }
+    .recipe-details-container strong{
+        font-weight: 300;
+
+    }
+    .recipe-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .detail-item {
+        width: 100%; 
+        max-width: 300px; 
+        text-align: left; 
+        padding: 1px 2px;
+    }
+
+    .detail-item:last-child {
+        border-bottom: none; 
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-left {
+        flex-direction: column;
+    }
+
+    .social {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
 }
 
-.side-dish-container {
-    flex-direction: column;
-    align-items: center; */
-}
+
   /*-------------------- MEDIA QUERY (large) ------------------------------------*/
-  /*  min-width: 950px  */
-  @media (min-width: 950px) {
+  @media (max-width: 950px) {
   
   }
   
-  /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
-  /*  min-width: 1280px  */
-  @media (min-width: 1280px) {
-
-  }
