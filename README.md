@@ -1,9 +1,7 @@
-```markdown
 # 🍽️ Responsive Recipe Search Page
 
 A responsive recipe search web page built using **HTML** and **CSS**, designed to deliver a seamless experience across desktop, tablet, and mobile devices.
 
----
 
 ## ✨ Features
 
@@ -14,7 +12,6 @@ A responsive recipe search web page built using **HTML** and **CSS**, designed t
 - 🖥️ **Fully responsive layout** using CSS media queries
 - 🎨 No JavaScript required — built with clean, accessible HTML/CSS
 
----
 
 ## 🚀 Getting Started
 
@@ -29,7 +26,7 @@ A responsive recipe search web page built using **HTML** and **CSS**, designed t
 
    Simply open `index.html` in any modern browser to view the page.
 
----
+
 
 ## 🧩 Technologies Used
 
