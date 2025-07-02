@@ -65,4 +65,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙋‍♂️ Author
 
 Crafted with care by [Faheem Rana](https://github.com/Faheem798)
-```
